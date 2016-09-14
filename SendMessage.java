@@ -8,7 +8,7 @@ import com.plivo.helper.exception.PlivoException;
 public class SendMessage {
     public  void messaging(String src_number, String dst_number, String text) {
         String authId = "MANGYYNGRJZDHKOWUYNJ";
-        String authToken = "MjBkZWQyZDY4NjQxMDhlMjk2MzgzYmI0MzkwNDVj";
+        String authToken = "MjVhNTIzNjU5N2JmZWM1NTYyZjIxZjJjOWJkNTUx";
         RestAPI api = new RestAPI(authId, authToken, "v1");
 
         LinkedHashMap<String, String> parameters = new LinkedHashMap<String, String>();
